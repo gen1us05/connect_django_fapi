@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from fastapi.encoders import jsonable_encoder
 from database import session, ENGINE
-from webapp.models import Product
+from models import Product
 
 
 session = session(bind=ENGINE)
